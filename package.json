@@ -7,7 +7,6 @@
   "author": "sw-yx <swyx@dontemail.me>",
   "license": "MIT",
   "dependencies": {
-    "@joshkennedy00/gatsby-theme-blog-remix": "^1.0.8",
     "gatsby": "^2.13.41",
     "gatsby-theme-blog": "^1.0.2",
     "gatsby-theme-notes": "^1.0.3",

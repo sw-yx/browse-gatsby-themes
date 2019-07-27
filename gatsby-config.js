@@ -40,15 +40,15 @@ module.exports = {
         assetPath: 'gatsby-theme-blog/content/assets',
       },
     },
-    {
-      resolve: `@joshkennedy00/gatsby-theme-blog-remix`,
-      options: {
-        // basePath defaults to `/`
-        basePath: `/gatsby-theme-blog-remix`,
-        contentPath: 'gatsby-theme-blog-remix/content/posts',
-        assetPath: 'gatsby-theme-blog-remix/content/assets',
-      },
-    },
+    // {
+    //   resolve: `@joshkennedy00/gatsby-theme-blog-remix`,
+    //   options: {
+    //     // basePath defaults to `/`
+    //     basePath: `/gatsby-theme-blog-remix`,
+    //     contentPath: 'gatsby-theme-blog-remix/content/posts',
+    //     assetPath: 'gatsby-theme-blog-remix/content/assets',
+    //   },
+    // },
     // 'gatsby-theme-powerboard-base',
     // {
     //   resolve: `gatsby-theme-stripe-checkout-button`,
