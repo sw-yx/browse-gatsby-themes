@@ -41,8 +41,22 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-starter-morning-dew',
-      options: {},
+      resolve: `@joshkennedy00/gatsby-theme-blog-remix`,
+      options: {
+        // basePath defaults to `/`
+        basePath: `/gatsby-theme-blog-remix`,
+        contentPath: 'gatsby-theme-blog-remix/content/posts',
+        assetPath: 'gatsby-theme-blog-remix/content/assets',
+      },
     },
+    // 'gatsby-theme-powerboard-base',
+    // {
+    //   resolve: `gatsby-theme-stripe-checkout-button`,
+    //   options: {
+    //     STRIPE_API_KEY: 'pk_test_sCZdKKv3RLpcLwCLybjQVKQE004MOo7pXE',
+    //     STRIPE_SECRET_KEY: POTATO,
+    //     siteUrl: 'https://gatsby-theme-stripe-checkout-button-example.netlify.com',
+    //   },
+    // },
   ],
 }
