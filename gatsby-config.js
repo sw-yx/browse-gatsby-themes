@@ -1,3 +1,7 @@
+// gatsby-config.js
+const path = require('path')
+const fs = require('fs')
+
 module.exports = {
   siteMetadata: {
     // Used for the site title and SEO
@@ -23,7 +27,17 @@ module.exports = {
       resolve: `gatsby-theme-notes`,
       options: {
         // basePath defaults to `/`
-        // basePath: `/notes`,
+        basePath: `/gatsby-theme-notes`,
+        contentPath: 'gatsby-theme-notes/content/notes',
+      },
+    },
+    {
+      resolve: `gatsby-theme-blog`,
+      options: {
+        // // basePath defaults to `/`
+        // basePath: `/gatsby-theme-blog`,
+        contentPath: 'gatsby-theme-blog/content/posts',
+        assetPath: 'gatsby-theme-blog/content/assets',
       },
     },
   ],
