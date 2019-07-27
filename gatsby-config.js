@@ -21,6 +21,10 @@ module.exports = {
         url: `https://github.com/gatsbyjs`,
       },
     ],
+    /** theme stats */
+
+    source: 'https://github.com/lannonbr/gatsby-github-stats',
+    repoNameWithOwner: 'gatsbyjs/gatsby',
   },
   plugins: [
     {
@@ -38,6 +42,12 @@ module.exports = {
         basePath: `/gatsby-theme-blog`,
         contentPath: 'gatsby-theme-blog/content/posts',
         assetPath: 'gatsby-theme-blog/content/assets',
+      },
+    },
+    {
+      resolve: `gatsby-theme-github-stats`,
+      options: {
+        dataPath: path.join(__dirname, `gatsby-theme-github-stats`, `data`),
       },
     },
     // {
