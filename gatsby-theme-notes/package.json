@@ -1,0 +1,17 @@
+{
+  "name": "gatsby-theme-notes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "sw-yx <swyx@dontemail.me>",
+  "license": "MIT",
+  "dependencies": {
+    "gatsby": "^2.13.41",
+    "gatsby-theme-notes": "^1.0.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "scripts": {
+    "start": "gatsby develop",
+    "build": "gatsby build"
+  }
+}

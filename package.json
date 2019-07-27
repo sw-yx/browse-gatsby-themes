@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "browse-gatsby-themes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/sw-yx/browse-gatsby-themes",
+  "author": "sw-yx <swyx@dontemail.me>",
+  "license": "MIT",
+  "workspaces": [
+    "gatsby-theme-blog",
+    "gatsby-theme-notes",
+    "browse-gatsby-themes"
+  ]
+}
