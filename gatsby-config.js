@@ -35,10 +35,14 @@ module.exports = {
       resolve: `gatsby-theme-blog`,
       options: {
         // // basePath defaults to `/`
-        // basePath: `/gatsby-theme-blog`,
+        basePath: `/gatsby-theme-blog`,
         contentPath: 'gatsby-theme-blog/content/posts',
         assetPath: 'gatsby-theme-blog/content/assets',
       },
+    },
+    {
+      resolve: 'gatsby-starter-morning-dew',
+      options: {},
     },
   ],
 }
