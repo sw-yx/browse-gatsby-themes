@@ -44,6 +44,18 @@ module.exports = {
         assetPath: 'gatsby-theme-blog/content/assets',
       },
     },
+
+    {
+      resolve: 'gatsby-theme-simple-bio',
+      options: {
+        baseUrl: 'gatsby-theme-simple-bio',
+        rounded: false,
+        paths: {
+          assets: 'gatsby-theme-simple-bio/content/assets',
+          home: 'gatsby-theme-simple-bio/content/home',
+        },
+      },
+    },
     {
       resolve: `gatsby-theme-github-stats`,
       options: {

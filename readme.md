@@ -2,6 +2,8 @@ themes included
 
 - theme blog
 - theme notes
+- https://github.com/lannonbr/gatsby-theme-github-stats/
+- https://github.com/sonapraneeth-a/gatsby-theme-simple-bio
 
 themes tried
 
